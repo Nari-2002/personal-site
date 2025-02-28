@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code, BookOpen, GraduationCap, Briefcase } from 'lucide-react';
-import passportPhoto from "../passportsizephoto.jpg";
+import passportPhoto from "./passportsizephoto.jpg";
 
 function App() {
   return (
