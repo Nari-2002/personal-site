@@ -23,15 +23,8 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="md:w-1/3">
-              <div className="bg-white p-1 rounded-full shadow-xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" 
-                  alt="Kamepalli Narendra" 
-                  className="rounded-full w-48 h-48 object-cover mx-auto"
-                />
-              </div>
-            </div>
+
+            
           </div>
         </div>
       </header>
