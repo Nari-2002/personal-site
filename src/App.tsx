@@ -25,15 +25,16 @@ function App() {
               </div>
             </div>
 
-            <div className="md:w-1/3">
-                <div className="bg-white p-1 rounded-full shadow-xl">
-                  <img 
-                    src="/passportsizephoto.jpg"  // Using the public folder path
-                    alt="Kamepalli Narendra" 
-                    className="rounded-full w-48 h-48 object-cover mx-auto"
-                  />
-                </div>
+           <div className="md:w-1/3">
+            <div className="bg-white p-1 rounded-full shadow-xl">
+              <img 
+                src={passportPhoto} 
+                alt="Kamepalli Narendra" 
+                className="rounded-full w-48 h-48 object-cover mx-auto"
+              />
             </div>
+          </div>
+
 
           </div>
         </div>
