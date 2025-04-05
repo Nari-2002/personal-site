@@ -120,7 +120,7 @@ function App() {
               <div className="flex justify-between items-start mb-4">
                 <h3 className="text-2xl font-semibold text-indigo-600">StudyBud</h3>
                 <span className="text-sm text-gray-500">
-                  <a href='https://github.com/Nari-2002/study-buddy'>GitHub</a>June 2023 – July 2023</span>
+                  <a href='https://github.com/Nari-2002/study-buddy' style='padding-right:5px;color:blue;'>GitHub</a>June 2023 – July 2023</span>
               </div>
               <p className="text-gray-700 mb-4">
                 Developed a comprehensive StudyBud platform using the Django framework and SQLite. 
