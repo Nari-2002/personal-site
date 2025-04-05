@@ -116,11 +116,15 @@ function App() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">Projects</h2>
           <div className="max-w-4xl mx-auto grid grid-cols-1 gap-8">
+      
+            {/* StudyBud Project */}
             <div className="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
               <div className="flex justify-between items-start mb-4">
                 <h3 className="text-2xl font-semibold text-indigo-600">StudyBud</h3>
                 <span className="text-sm text-gray-500">
-                  <a href='https://github.com/Nari-2002/study-buddy' style='padding-right:5px;color:blue;'>GitHub</a>June 2023 – July 2023</span>
+                  <a href="https://github.com/Nari-2002/study-buddy" className="text-blue-600 hover:underline mr-2" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  June 2023 – July 2023
+                </span>
               </div>
               <p className="text-gray-700 mb-4">
                 Developed a comprehensive StudyBud platform using the Django framework and SQLite. 
@@ -134,11 +138,15 @@ function App() {
                 <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Web Development</span>
               </div>
             </div>
-
+      
+            {/* Lung Disease Classification Project */}
             <div className="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
               <div className="flex justify-between items-start mb-4">
                 <h3 className="text-2xl font-semibold text-indigo-600">Multi-Class Lung Disease Classification</h3>
-                <span className="text-sm text-gray-500">August 2024 – September 2024</span>
+                <span className="text-sm text-gray-500">
+                  <a href="https://github.com/Nari-2002/lung-site" className="text-blue-600 hover:underline mr-2" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  August 2024 – September 2024
+                </span>
               </div>
               <p className="text-gray-700 mb-4">
                 Developed a lung disease classification system using deep learning techniques to accurately 
@@ -152,9 +160,11 @@ function App() {
                 <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Medical Imaging</span>
               </div>
             </div>
+      
           </div>
         </div>
       </section>
+
 
       {/* Education Section */}
       <section className="py-16 bg-gray-50">
